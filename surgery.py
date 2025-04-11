@@ -1,4 +1,5 @@
 # surgical_co_pilot.py
+pip install opencv-python-headless
 import streamlit as st
 import google.generativeai as genai
 import torch
@@ -9,6 +10,8 @@ import cv2
 from PIL import Image
 import io
 from torch.fft import fft2, ifft2
+
+
 
 API_KEY = "AIzaSyADLmrGZMNt5Cfm9ItfOzSGPHICUypVUDU" 
 genai.configure(api_key=API_KEY)
