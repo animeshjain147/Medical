@@ -5,3 +5,4 @@ monai
 pydicom 
 matplotlib 
 pillow
+opencv-headless
