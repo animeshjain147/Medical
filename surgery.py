@@ -1,5 +1,4 @@
 # surgical_co_pilot.py
-pip install opencv-python-headless
 import streamlit as st
 import google.generativeai as genai
 import torch
